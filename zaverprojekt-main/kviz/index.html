@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="../index.html">Main stránka</a>
+        <a href="#"></a>
+        <a href="#">Gamemods</a>
+        <a href="#">Zbraně</a>
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="dropdownId"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Mapy-MM</a
+        >
+        <div class="dropdown-menu bg-dark" aria-labelledby="dropdownId">
+          <a class="dropdown-item text-light" href="#">Mirage</a>
+          <a class="dropdown-item text-light" href="#">Dust II</a>
+          <a class="dropdown-item text-light" href="#">Nuke</a>
+          <a class="dropdown-item text-light" href="#">Overpass</a>
+          <a class="dropdown-item text-light" href="#">Vertigo</a>
+          <a class="dropdown-item text-light" href="#">Inferno</a>
+        </div>
+        <a href="#">EASTER EGGS</a>
+        <a href="#">další a d</a>
+      </div>
+      <div class="text-white">
+        <span style="font-size: 40px; cursor: pointer" onclick="openNav()">
+          <div class="text-warning">&#9776;</div>
+        </span>
+      </div>
+      <div class="nadpis">
+        <img src="../FOTKY/cs_logo.png" alt="nadpis" />
+      </div>
+    </header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <main>
+      <main class="container text-width">
+        <form action="" method="POST">
+          <p class="alert alert-warning otazka">1. Jaký rank je na obrázku ?</p>
+          <div class="form-group row">
+              <label for="listina" class="col-sm-3 col-form-label text-light"><img src="../FOTKY/lemko.png" alt="aa" width="75%" height="60%"></label>
+              <div class="col-sm-9">
+                  <input type="text" class="form-control m-3" name="listina" id="listina" placeholder="Zadejte tři slova / zkratku">
+              </div>
+          </div>
+          <p class="alert alert-success odpoved collapse">Legendary Eagle Master / LEM</p>
+          <hr class="ohraz">
+            <p class="alert alert-warning otazka">2. Přezdvíka zakladatele steamu ?</p>
+            <div class="form-group row">
+                <label for="listina" class="col-sm-3 col-form-label text-light"></label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" name="listina" id="listina" placeholder="Přezdívka">
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse">Gaben</p>
+            <p class="alert alert-success odpoved collapse text-center"><img src="../FOTKY/gabennnn.png" alt="THAGABEN" width="50%" height="50%"></p>
+            <hr class="ohraz">
+            <p class="alert alert-warning otazka">3. Kdy byla vydaná hra CS:GO ?</p>
+            <div class="form-group row">
+                <label for="univerzita" class="col-sm-3 col-form-label text-light">Rok vydání</label>
+                <div class="col-sm-3">
+                    <input type="number" class="form-control" name="univerzita" min="1998" max="2020" id="univerzita" value="2004">
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse">21.8.2012 / 2012</p>
+            <hr class="ohraz">
+            <p class="alert alert-warning otazka">4. Je tato hra f2p "Free to play"?</p>
+            <div class="form-group row">
+                <label for="kral" class="col-sm-3 col-form-label text-light">Vyber odpověď</label>
+                <div class="col-sm-3">
+                      <select class="form-control" name="rank" id="rank">
+                        <option selected>ANO</option>
+                        <option>NE</option>
+                        <option>Můžeš jí koupit, ale nemusíš</option>
+                      </select>
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse">Můžeš jí koupit, ale nemusíš ! (Gaben se smiloval)</p>
+            <hr class="ohraz">     
+
+            <p class="alert alert-warning otazka">5. Tvůj rank v mm?</p>
+            <div class="form-group row">
+                <label for="kral" class="col-sm-3 col-form-label text-light">Vyber odpověď</label>
+                <div class="col-sm-3">
+                      <select class="form-control" name="rank" id="rank">
+                        <option selected>Silver</option>
+                        <option>Gold</option>
+                        <option>MG-DMG</option>
+                        <option>LE-GE</option>
+                        <option>MM je pro buzny, hraju faceit</option>
+                      </select>
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse">Lež, si silver :)</p>
+            <p class="alert alert-success odpoved collapse text-center"><img src="../FOTKY/Akinator.png" alt="THAGABEN" width="25%" height="25%"></p>
+
+            <hr class="ohraz">          
+            
+            
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-10">
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target=".odpoved">Vyhodnotit kvíz</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>dddddddddd</footer>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="holder/holder.min.js"></script>
+  </body>
+</html>
